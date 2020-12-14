@@ -1,0 +1,98 @@
+
+first delete Request
+Request URL: 
+https://m.tiktok.com/api/aweme/delete/
+?aid=1988&app_name=tiktok_web&device_platform=web
+&referer=https:%2F%2Fwww.tiktok.com%2F&
+root_referer=https:%2F%2Fwww.tiktok.com%2F&
+user_agent=Mozilla%2F5.0+(X11%3B+Linux+x86_64)+AppleWebKit%2F537.36+(KHTML,+like+Gecko)+Chrome%2F87.0.4280.88+Safari%2F537.36
+&cookie_enabled=true
+&screen_width=1920&screen_height=1080&browser_language=de-DE&browser_platform=Linux+x86_64&browser_name=Mozilla&browser_version=5.0+(X11%3B+Linux+x86_64)+AppleWebKit%2F537.36+(KHTML,+like+Gecko)+Chrome%2F87.0.4280.88+Safari%2F537.36&browser_online=true&ac=4g&timezone_name=Europe%2FBerlin&page_referer=https:%2F%2Fwww.tiktok.com%2F%3Flang%3Dde&priority_region=&
+verifyFp=verify_kinmqs6m_vsNuRsQL_PYHj_4mOq_9DYJ_I9ZHEsi9k4Jw
+&appId=1233&region=DE&appType=m&isAndroid=false&isMobile=false&isIOS=false
+&OS=linux&did=6905853350287263238
+&aweme_id=6905837983983766789 
+&target=6905837983983766789
+&tt_csrf_token=6pGhnwMDYSjjjVsWiH8CO5La
+Request Method: POST
+Status Code: 200 
+Remote Address: 2.17.123.75:443
+Referrer Policy: strict-origin-when-cross-origin
+
+required field:
+id
+count
+maxCursor
+minCursor
+sourceType
+
+6905734442376610821
+
+6905880675463859462
+
+https://www.tiktok.com/api/comment/publish/?aid=1988&app_name=tiktok_web&device_platform=web&referer=https:%2F%2Fwww.tiktok.com%2Fupload%2F%3Flang%3Dde&root_referer=https:%2F%2Fwww.tiktok.com%2F&user_agent=Mozilla%2F5.0+(X11%3B+Linux+x86_64)+AppleWebKit%2F537.36+(KHTML,+like+Gecko)+Chrome%2F87.0.4280.88+Safari%2F537.36&cookie_enabled=true&screen_width=1920&screen_height=1080&browser_language=de-DE&browser_platform=Linux+x86_64&browser_name=Mozilla&browser_version=5.0+(X11%3B+Linux+x86_64)+AppleWebKit%2F537.36+(KHTML,+like+Gecko)+Chrome%2F87.0.4280.88+Safari%2F537.36&browser_online=true&ac=4g&timezone_name=Europe%2FBerlin&page_referer=https:%2F%2Fwww.tiktok.com%2Fupload%2F%3Flang%3Dde&priority_region=&verifyFp=verify_kinmqs6m_vsNuRsQL_PYHj_4mOq_9DYJ_I9ZHEsi9k4Jw&appId=1233&region=DE&appType=m&isAndroid=false&isMobile=false&isIOS=false&OS=linux&did=6905853350287263238&aweme_id=6905880675463859462&text=:)&device_id=6905853350287263238&_signature=_02B4Z6wo00101IhI.ZwAAICC0KMqy8edAfSISfkAAH3M7f
+
+list all videos:
+
+Request URL: https://m.tiktok.com/api/item_list/?aid=1988&app_name=tiktok_web&device_platform=web&referer=https:%2F%2Fwww.tiktok.com%2Fupload%2F%3Flang%3Dde&root_referer=https:%2F%2Fwww.tiktok.com%2F&user_agent=Mozilla%2F5.0+(X11%3B+Linux+x86_64)+AppleWebKit%2F537.36+(KHTML,+like+Gecko)+Chrome%2F87.0.4280.88+Safari%2F537.36&cookie_enabled=true&screen_width=1920&screen_height=1080&browser_language=de-DE&browser_platform=Linux+x86_64&browser_name=Mozilla&browser_version=5.0+(X11%3B+Linux+x86_64)+AppleWebKit%2F537.36+(KHTML,+like+Gecko)+Chrome%2F87.0.4280.88+Safari%2F537.36&browser_online=true&ac=4g&timezone_name=Europe%2FBerlin&page_referer=https:%2F%2Fwww.tiktok.com%2F%3Flang%3Dde&priority_region=&verifyFp=verify_kinmqs6m_vsNuRsQL_PYHj_4mOq_9DYJ_I9ZHEsi9k4Jw&appId=1233&region=DE&appType=m&isAndroid=false&isMobile=false&isIOS=false&OS=linux&did=6905853350287263238&count=30&id=6905734442376610821&secUid=MS4wLjABAAAAMGa7MHRZ_6oegPsWO-PrIDIskjEGl2SagyoUcXyhCgfqReDUmGZA2UnxyVeJwmOi&maxCursor=0&minCursor=0&sourceType=8&language=de&_signature=_02B4Z6wo00901mwPSPwAAICANOSfqc2cAsJsDkxAAMTha2
+
+second delete request
+
+Request URL: https://m.tiktok.com/api/aweme/delete/?aid=1988&app_name=tiktok_web&device_platform=web&referer=https:%2F%2Fwww.tiktok.com%2F&root_referer=https:%2F%2Fwww.tiktok.com%2F&user_agent=Mozilla%2F5.0+(X11%3B+Linux+x86_64)+AppleWebKit%2F537.36+(KHTML,+like+Gecko)+Chrome%2F87.0.4280.88+Safari%2F537.36&cookie_enabled=true&screen_width=1920&screen_height=1080&browser_language=de-DE&browser_platform=Linux+x86_64&browser_name=Mozilla&browser_version=5.0+(X11%3B+Linux+x86_64)+AppleWebKit%2F537.36+(KHTML,+like+Gecko)+Chrome%2F87.0.4280.88+Safari%2F537.36&browser_online=true&ac=4g&timezone_name=Europe%2FBerlin&page_referer=https:%2F%2Fwww.tiktok.com%2F@wkuchrdkted%3Flang%3Dde&priority_region=&verifyFp=verify_kinmqs6m_vsNuRsQL_PYHj_4mOq_9DYJ_I9ZHEsi9k4Jw&appId=1233&region=DE&appType=m&isAndroid=false&isMobile=false&isIOS=false&OS=linux&did=6905853350287263238&aweme_id=6905837827771092229&target=6905837827771092229&tt_csrf_token=6pGhnwMDYSjjjVsWiH8CO5La
+Request Method: POST
+Status Code: 200 
+Remote Address: 2.17.123.74:443
+Referrer Policy: strict-origin-when-cross-origin
+
+cookie: 
+XXXtt_webid_v2=6905853350287263238; 
+XXXtt_webid=6905853350287263238; 
+XXXtt_csrf_token=6pGhnwMDYSjjjVsWiH8CO5La; XXttwid=1%7C5gZUILH-GPtNlDVySt-ReZvn5stp1gTvE5QTZgeb6w4%7C1607894662%7C2fd91519cdb4f66f6097c43b0cd57a4e429152b6d29bde8a934af12c51053b62;     XXXpassport_csrf_token=2cab803d5618528e5aa66f024e8f17f7; 
+XXXsid_guard=4f535768eca7bf255192664b12dd9996%7C1607894716%7C5184000%7CThu%2C+11-Feb-2021+21%3A25%3A16+GMT; XXXuid_tt=d9177dd728cb8bb897c481a5291e362b0f8d57636c6634a50871b44dc49e172f; 
+XXXuid_tt_ss=d9177dd728cb8bb897c481a5291e362b0f8d57636c6634a50871b44dc49e172f; 
+XXXsid_tt=4f535768eca7bf255192664b12dd9996; 
+XXXsessionid=4f535768eca7bf255192664b12dd9996; 
+XXXsessionid_ss=4f535768eca7bf255192664b12dd9996; 
+XXXstore-idc=alisg; store-country-code=de; 
+XXXcookie-consent={%22ga%22:true%2C%22af%22:true%2C%22fbp%22:true%2C%22lip%22:true%2C%22version%22:%22v2%22}; XXXodin_tt=b2d38f4bc3cd05b3d101a5a3a5f2a82e0b14984a5289450d4b8e222c9e1990c20abf39f1e978bab38f4c73fea8e9d206be2790d962af6ef9d593737b84db5c48
+
+
+click on video request:
+
+Request URL: https://www.tiktok.com/api/comment/list/?aid=1988&app_name=tiktok_web&device_platform=web_pc&referer=https:%2F%2Fwww.tiktok.com%2F&root_referer=https:%2F%2Fwww.tiktok.com%2F&user_agent=Mozilla%2F5.0+(X11%3B+Linux+x86_64)+AppleWebKit%2F537.36+(KHTML,+like+Gecko)+Chrome%2F87.0.4280.88+Safari%2F537.36&cookie_enabled=true&screen_width=1920&screen_height=1080&browser_language=de-DE&browser_platform=Linux+x86_64&browser_name=Mozilla&browser_version=5.0+(X11%3B+Linux+x86_64)+AppleWebKit%2F537.36+(KHTML,+like+Gecko)+Chrome%2F87.0.4280.88+Safari%2F537.36&browser_online=true&ac=4g&timezone_name=Europe%2FBerlin&page_referer=https:%2F%2Fwww.tiktok.com%2F%3Flang%3Dde&priority_region=&verifyFp=verify_kinmqs6m_vsNuRsQL_PYHj_4mOq_9DYJ_I9ZHEsi9k4Jw&appId=1233&region=DE&appType=m&isAndroid=false&isMobile=false&isIOS=false&OS=linux&did=6905853350287263238&insert_ids=&aweme_id=6905837827771092229&cursor=0&count=20&app_language=de&current_region=DE&fromWeb=1&channel_id=3&_signature=_02B4Z6wo00901HdWokQAAICCL711Eubt9uR3V6bAAEIHa8
+
+post comment request:
+
+Request URL: https://www.tiktok.com/api/comment/publish/?aid=1988&app_name=tiktok_web&device_platform=web&referer=https:%2F%2Fwww.tiktok.com%2F&root_referer=https:%2F%2Fwww.tiktok.com%2F&user_agent=Mozilla%2F5.0+(X11%3B+Linux+x86_64)+AppleWebKit%2F537.36+(KHTML,+like+Gecko)+Chrome%2F87.0.4280.88+Safari%2F537.36&cookie_enabled=true&screen_width=1920&screen_height=1080&browser_language=de-DE&browser_platform=Linux+x86_64&browser_name=Mozilla&browser_version=5.0+(X11%3B+Linux+x86_64)+AppleWebKit%2F537.36+(KHTML,+like+Gecko)+Chrome%2F87.0.4280.88+Safari%2F537.36&browser_online=true&ac=4g&timezone_name=Europe%2FBerlin&page_referer=https:%2F%2Fwww.tiktok.com%2F@wkuchrdkted%3Flang%3Dde&priority_region=&verifyFp=verify_kinmqs6m_vsNuRsQL_PYHj_4mOq_9DYJ_I9ZHEsi9k4Jw&appId=1233&region=DE&appType=m&isAndroid=false&isMobile=false&isIOS=false&OS=linux&did=6905853350287263238&aweme_id=6905837827771092229&text=:)&device_id=6905853350287263238&_signature=_02B4Z6wo00101xe9.0AAAICBT1YoFlk6Dj8XvPvAAJpD76
+Request Method: POST
+Status Code: 200 
+Remote Address: 23.55.110.15:443
+Referrer Policy: strict-origin-when-cross-origin
+
+
+
+after delete:
+
+Request URL: https://www.tiktok.com/api/comment/list/?aid=1988&app_name=tiktok_web&device_platform=web_pc&referer=https:%2F%2Fwww.tiktok.com%2F&root_referer=https:%2F%2Fwww.tiktok.com%2F&user_agent=Mozilla%2F5.0+(X11%3B+Linux+x86_64)+AppleWebKit%2F537.36+(KHTML,+like+Gecko)+Chrome%2F87.0.4280.88+Safari%2F537.36&cookie_enabled=true&screen_width=1920&screen_height=1080&browser_language=de-DE&browser_platform=Linux+x86_64&browser_name=Mozilla&browser_version=5.0+(X11%3B+Linux+x86_64)+AppleWebKit%2F537.36+(KHTML,+like+Gecko)+Chrome%2F87.0.4280.88+Safari%2F537.36&browser_online=true&ac=4g&timezone_name=Europe%2FBerlin&page_referer=https:%2F%2Fwww.tiktok.com%2F%3Flang%3Dde&priority_region=&verifyFp=verify_kinmqs6m_vsNuRsQL_PYHj_4mOq_9DYJ_I9ZHEsi9k4Jw&appId=1233&region=DE&appType=m&isAndroid=false&isMobile=false&isIOS=false&OS=linux&did=6905853350287263238&insert_ids=&aweme_id=6905837827771092229&cursor=0&count=20&app_language=de&current_region=DE&fromWeb=1&channel_id=3&_signature=_02B4Z6wo00901XI9KmAAAICDKtb9N764A1FyPC7AAANa7a
+Request Method: GET
+Status Code: 200 
+Remote Address: 2.17.123.75:443
+Referrer Policy: strict-origin-when-cross-origin
+
+Request URL: https://www.tiktok.com/api/user/contact/list/?aid=1988&app_name=tiktok_web&device_platform=web&referer=https:%2F%2Fwww.tiktok.com%2F&root_referer=https:%2F%2Fwww.tiktok.com%2F&user_agent=Mozilla%2F5.0+(X11%3B+Linux+x86_64)+AppleWebKit%2F537.36+(KHTML,+like+Gecko)+Chrome%2F87.0.4280.88+Safari%2F537.36&cookie_enabled=true&screen_width=1920&screen_height=1080&browser_language=de-DE&browser_platform=Linux+x86_64&browser_name=Mozilla&browser_version=5.0+(X11%3B+Linux+x86_64)+AppleWebKit%2F537.36+(KHTML,+like+Gecko)+Chrome%2F87.0.4280.88+Safari%2F537.36&browser_online=true&ac=4g&timezone_name=Europe%2FBerlin&page_referer=https:%2F%2Fwww.tiktok.com%2F%3Flang%3Dde&priority_region=&verifyFp=verify_kinmqs6m_vsNuRsQL_PYHj_4mOq_9DYJ_I9ZHEsi9k4Jw&appId=1233&region=DE&appType=m&isAndroid=false&isMobile=false&isIOS=false&OS=linux&did=6905853350287263238&count=50&_signature=_02B4Z6wo00901XI9KmAAAICDKtb9N764L0lyPC7AAANa88
+Request Method: GET
+Status Code: 200 
+Remote Address: 2.17.123.75:443
+Referrer Policy: strict-origin-when-cross-origin
+
+Request URL: https://www.tiktok.com/api/share/settings/?aid=1988&app_name=tiktok_web&device_platform=webapp_pc&referer=https:%2F%2Fwww.tiktok.com%2F&root_referer=https:%2F%2Fwww.tiktok.com%2F&user_agent=Mozilla%2F5.0+(X11%3B+Linux+x86_64)+AppleWebKit%2F537.36+(KHTML,+like+Gecko)+Chrome%2F87.0.4280.88+Safari%2F537.36&cookie_enabled=true&screen_width=1920&screen_height=1080&browser_language=de-DE&browser_platform=Linux+x86_64&browser_name=Mozilla&browser_version=5.0+(X11%3B+Linux+x86_64)+AppleWebKit%2F537.36+(KHTML,+like+Gecko)+Chrome%2F87.0.4280.88+Safari%2F537.36&browser_online=true&ac=4g&timezone_name=Europe%2FBerlin&page_referer=https:%2F%2Fwww.tiktok.com%2F%3Flang%3Dde&priority_region=&verifyFp=verify_kinmqs6m_vsNuRsQL_PYHj_4mOq_9DYJ_I9ZHEsi9k4Jw&appId=1233&region=DE&appType=m&isAndroid=false&isMobile=false&isIOS=false&OS=linux&did=6905853350287263238
+Request Method: GET
+Status Code: 200 
+Remote Address: 2.17.123.75:443
+Referrer Policy: strict-origin-when-cross-origin
+
+Request URL: https://www.tiktok.com/api/at/default/list/?aid=1988&app_name=tiktok_web&device_platform=web&referer=https:%2F%2Fwww.tiktok.com%2F&root_referer=https:%2F%2Fwww.tiktok.com%2F&user_agent=Mozilla%2F5.0+(X11%3B+Linux+x86_64)+AppleWebKit%2F537.36+(KHTML,+like+Gecko)+Chrome%2F87.0.4280.88+Safari%2F537.36&cookie_enabled=true&screen_width=1920&screen_height=1080&browser_language=de-DE&browser_platform=Linux+x86_64&browser_name=Mozilla&browser_version=5.0+(X11%3B+Linux+x86_64)+AppleWebKit%2F537.36+(KHTML,+like+Gecko)+Chrome%2F87.0.4280.88+Safari%2F537.36&browser_online=true&ac=4g&timezone_name=Europe%2FBerlin&page_referer=https:%2F%2Fwww.tiktok.com%2F%3Flang%3Dde&priority_region=&verifyFp=verify_kinmqs6m_vsNuRsQL_PYHj_4mOq_9DYJ_I9ZHEsi9k4Jw&appId=1233&region=DE&appType=m&isAndroid=false&isMobile=false&isIOS=false&OS=linux&did=6905853350287263238&count=51&cursor=0&_signature=_02B4Z6wo00901XI9KmAAAICDKtb9N765WvlyPC7AAANa04
+Request Method: GET
+Status Code: 200 
+Remote Address: 2.17.123.75:443
+Referrer Policy: strict-origin-when-cross-origin

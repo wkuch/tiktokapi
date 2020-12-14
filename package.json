@@ -1,0 +1,15 @@
+{
+  "name": "redactprototype",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "author": "wonje",
+  "license": "MIT",
+  "dependencies": {
+    "@types/puppeteer": "^5.4.2",
+    "axios": "^0.21.0",
+    "prompt": "^1.0.0",
+    "puppeteer": "^5.5.0",
+    "readline": "^1.3.0",
+    "zod": "^1.11.11"
+  }
+}
