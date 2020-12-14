@@ -35,28 +35,26 @@ export class tiktokPrototype {
     let username: string
     let hashtag: string
 
-    rl.question("Tiktok username? ", function(name) {
-      rl.question("filter for a specific hashtag? ", function(ht){
+    rl.question("Tiktok username? ", function (name) {
+      rl.question("filter for a specific hashtag? ", function (ht) {
         username = name
         hashtag = ht
         rl.close()
       })
-      
+
     });
 
     const listposts = this.listUserPosts;
 
-    rl.on("close", function() {
+    rl.on("close", function () {
       listposts(username, hashtag);
     })
-
-    
   }
 
-  public async listUserPosts(userName: string, hashtag:string ){
+  public async listUserPosts(userName: string, hashtag: string) {
     const userReqParams: TikTok.getUserInfoParams = {
       validUniqueId: userName
-    }    
+    }
     let userId = ""
     await axios.get(`/node/share/user/@${userName}`, {
       baseURL: "https://www.tiktok.com",
@@ -71,13 +69,13 @@ export class tiktokPrototype {
         console.log(error)
       });
 
-      const listparams: TikTok.listPostsParams = {
-        count: "30",
-        id: userId,
-        maxCursor: "0",
-        minCursor: "0",
-        sourceType: "8"
-      }
+    const listparams: TikTok.listPostsParams = {
+      count: "30", //default  
+      id: userId,
+      maxCursor: "0",
+      minCursor: "0",
+      sourceType: "8"
+    }
 
     axios.get("/api/item_list/", {
       baseURL: "https://www.tiktok.com",
@@ -88,9 +86,9 @@ export class tiktokPrototype {
     })
       .then(resp => {
         console.log(resp.data.items.filter(post => {
-          const re = new RegExp("#"+hashtag, 'gm')
+          const re = new RegExp("#" + hashtag, 'gm')
           return post.desc.match(re)
-        } ))
+        }))
       }).catch(error => {
         console.log(error)
       });
